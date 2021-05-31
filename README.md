@@ -24,7 +24,7 @@ Then, run `bundle install` from your terminal.
 
 #### Create a Member
 
-To create amember:
+To create a member:
 
 ```ruby
 OrbitMembers::Request.new(
@@ -124,7 +124,6 @@ OrbitMembers::Request.new(
     filters: # The identity to remove in JSON format, see Orbit API docs for reference
 )
 ```
-
 
 For details on the data structures the Orbit API expects, refer to the [Orbit API Documentation](https://docs.orbit.love/reference).
 
